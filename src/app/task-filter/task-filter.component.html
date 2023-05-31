@@ -1,0 +1,9 @@
+<div class="container mt-3">
+    <label for="filter">Filtro:</label>
+    <select id="filter" [(ngModel)]="selectedFilter" (change)="onFilterChange()" class="form-control">
+      <option value="all">Todas</option>
+      <option value="completed">Completadas</option>
+      <option value="incomplete">Incompletas</option>
+    </select>
+  </div>
+  
